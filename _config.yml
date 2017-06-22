@@ -1,6 +1,2 @@
 theme: jekyll-theme-cayman
-
-# About/contact
-Test:
-  name:       Test2
-  url:        configure_python
+show_downloads: "true"
