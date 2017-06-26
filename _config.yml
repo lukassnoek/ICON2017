@@ -1,2 +1,5 @@
 theme: jekyll-theme-cayman
 show_downloads: "true"
+
+title: MVPA of fMRI data in Python
+description: [ICON 2017 workshop, Amsterdam, The Netherlands]
