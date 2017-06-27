@@ -29,14 +29,14 @@ If, for some reason, the `download_data.py` script doesn't work, you can manuall
 
 `Name_of_unzipped_materials_folder/  `
 `├── code  `
-├── configure_python.md  
-├── \_config.yml  
-├── **data**  
-├── download_data.py  
-├── \_layouts  
-├── LICENSE  
+`├── configure_python.md  `
+`├── \_config.yml  `
+`├── **data**  `
+`├── download_data.py  `
+`├── \_layouts  `
+`├── LICENSE  `
 `├── README.md  `
-└── tutorial  `
+`└── tutorial  `
 
 The location of the data is important because the tutorials assume that they're located in the same folder as the *tutorial* directory.
  
