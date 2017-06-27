@@ -16,3 +16,5 @@ If possible, try to install Python on your own computer (option 1), as this will
 ## ToDo:
 
 - Figure out IP van Beurs van Berlage (open zetten voor TUX)
+- Maak antwoord-notebook
+- Figure out cell collapse
