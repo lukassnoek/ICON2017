@@ -27,7 +27,7 @@ This should create a folder "data" in the directory with the materials, which wi
  
 If, for some reason, the `download_data.py` script doesn't work, you can manually download the data by going to [this URL](https://surfdrive.surf.nl/files/index.php/s/tosBy0KNb9BFUTC/download) (which points to the data repo). Download the zip-file and unzip it in the folder with the materials such that the unzipped folder ("data") is located here:
 
-Name_of_unzipped_materials_folder/  
+`Name_of_unzipped_materials_folder/  
 ├── code  
 ├── configure_python.md  
 ├── \_config.yml  
@@ -36,7 +36,7 @@ Name_of_unzipped_materials_folder/
 ├── \_layouts  
 ├── LICENSE  
 ├── README.md  
-└── tutorial  
+└── tutorial  `
 
 The location of the data is important because the tutorials assume that they're located in the same folder as the *tutorial* directory.
  
