@@ -1,6 +1,8 @@
 ## Hi there!
 Welcome to the website for the ICON 2017 hackathon "multivoxel pattern analysis (MVPA) of fMRI data in Python"! On this website, you'll find some general info about the hackathon, how to prepare for it (in terms of Python prerequisites and environment), and the slides/notebooks/data that will be used during the hackathon.
 
+[test](lecture_slides/PatternAnalysis_week_1_intro.pdf)
+
 ## Scope/learning goals
 This "hackathon" (or rather *workshop*, really) assumes that participants are familiar with analyzing (f)MRI data and want to know how they would go about implementing a machine-learning ("decoding") analysis in Python. As such, it's definitely helpful if you have *some* knowledge about Python's syntax, but it's not strictly necessary. (We do provide a crash-course Python-for-fMRI in a separate notebook which we'll *won't* discuss during the workshop, but you can do on your own if you want!)
 
