@@ -3,6 +3,7 @@ from Surfdrive (a data storage repository/drive from the
 Dutch institute for IT in science/academia) using cURL,
 which should be cross-platform. """
 
+from __future__ import print_function
 import subprocess
 import os
 import zipfile
