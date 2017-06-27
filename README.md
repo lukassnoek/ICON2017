@@ -12,3 +12,7 @@ For this hackathon, we expect participants to bring their own laptop. Given that
 2. Request an account on our analysis-server. In that case, please email me (lukassnoek [at] gmail [dot] com) in advance. You would need to download [X2go](http://wiki.x2go.org/doku.php/doc:installation:x2goclient) - a remote desktop client - to access our server.
 
 If possible, try to install Python on your own computer (option 1), as this will not have the problem of "lag" caused by the remote desktop client. Following the tutorials should be doable on a laptop with decent specs (i.e., at least 4 GB of RAM).
+
+## ToDo:
+
+- Figure out IP van Beurs van Berlage (open zetten voor TUX)
