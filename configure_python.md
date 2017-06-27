@@ -11,9 +11,9 @@ For *Mac*, you can choose between the graphical installer or the command-line in
 ### Install packages
 Now, we need to install the packages necessary for the tutorials. These packages encompass different functionality that we need to load, manipulate, and model MRI-images. We will use the following:  
 
-* numpy: the standard package for working with **num**eric data in **Py**thon (e.g., manipulating n-dimensional arrays like MRI-images!);
-* nibabel: the *de facto* package for loading in MRI data;
-* scikit-learn: the extremely versatile (and most popular) machine learning package in Python;
-* matplotlib: the most-often used plotting package in Python;
+* **numpy**: the standard package for working with **num**eric data in **Py**thon (e.g., manipulating n-dimensional arrays like MRI-images!);
+* **nibabel**: the *de facto* package for loading in MRI data;
+* **scikit-learn**: the extremely versatile (and most popular) machine learning package in Python;
+* **matplotlib**: the most-often used plotting package in Python;
 
 [Back to main page](README.md)
