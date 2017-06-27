@@ -19,11 +19,11 @@ If possible, try to install Python on your own computer (option 1), as this will
 ### Download the data
 On top of this website, click the button "Download material (.zip)" to download the entire Github repository with the material. Unzip it and check out its contents. There are various files in this directory (most of them are used to generate this website), but the only relevant directory for you is the *tutorial* directory which contains the notebooks we'll use for the workshop. As you can see, the unzipped folder also contains a file named `download_data.py`, which is as its name suggests a script to download the data. Note: the data is 211 MB in total! To start the download, open a terminal (or `cmd` tool in Windows) and type:
 
-  $ python download_data.py
+`python download_data.py`
   
+This should create a folder "data" in the directory with the materials, which will include 15 folders starting with "pi". These comprise the data that we'll use in our tutorials.
  
-
-
+** Please download the data *before* the day of your workshop, because on the day itself wifi will probably be very slow! **
 
 
 ## ToDo:
