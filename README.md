@@ -31,7 +31,7 @@ If, for some reason, the `download_data.py` script doesn't work, you can manuall
 `├── code`  
 `├── configure_python.md`  
 `├── \_config.yml`  
-`├── **data**`  
+├── **data**  
 `├── download_data.py`  
 `├── \_layouts`  
 `├── LICENSE`  
