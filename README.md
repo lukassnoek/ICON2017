@@ -1,12 +1,12 @@
 ## Hi there!
 Welcome to the website for the ICON 2017 hackathon "multivoxel pattern analysis (MVPA) of fMRI data in Python"! On this website, you'll find some general info about the hackathon, how to prepare for it (in terms of Python prerequisites and environment), and the slides/notebooks/data that will be used during the hackathon.
 
-[test](lecture_slides/PatternAnalysis_week_1_intro.pdf)
-
 ## Scope/learning goals
 This "hackathon" (or rather *workshop*, really) assumes that participants are familiar with analyzing (f)MRI data and want to know how they would go about implementing a machine-learning ("decoding") analysis in Python. As such, it's definitely helpful if you have *some* knowledge about Python's syntax, but it's not strictly necessary. (We do provide a crash-course Python-for-fMRI in a separate notebook which we'll *won't* discuss during the workshop, but you can do on your own if you want!)
 
-Also, we assume participants are relatively unfamiliar with machine learning (ML) concepts and their implementation. This workshop is based on material from the course "Neuroimaging: Pattern Analysis" taught at the University of Amsterdam for the Research Master Psychology, so it was designed with this in mind, resulting in a relatively "hands-on" approach, including lot's of "practice assignments" in the notebooks, which are optional for this workshop as it involves quite a bit of Python programming. Anyway, in short: if you're a ML guru, this is probably not the right workshop for you ... 
+Also, we assume participants are relatively unfamiliar with machine learning (ML) concepts and their implementation. This workshop is based on material from the course "Neuroimaging: Pattern Analysis" taught at the University of Amsterdam for the Research Master Psychology, so it was designed with this in mind, resulting in a relatively "hands-on" approach including lot's of "practice assignments" in the notebooks, which are optional for this workshop as it involves quite a bit of Python programming. Anyway, in short: if you're a ML guru, this is probably not the right workshop for you ... 
+
+Note: if you're interested in the original course materials, check out the corresponding [github](https://github.com/lukassnoek/PatternAnalysis). The slides from the course corresponding to the material of this workshop can be viewed [here](lecture_slides/PatternAnalysis_week_1_intro.pdf) (intro/pattern estimation) and [here](lecture_slides/PatternAnalysis_week_2_decoding.pdf) (decoding/ML).
 
 ## How to prepare ...
 To make sure that we are not going to spend half of the workshop fixing software dependencies and downloading data, we provide some instructions here to prepare for the workshop. 
