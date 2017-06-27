@@ -17,13 +17,32 @@ For this workshop, we'll obviously use the Python programming language. We expec
 If possible, try to install Python on your own computer (option 1), as this will not have the problem of "lag" caused by the remote desktop client. Following the tutorials should be doable on a laptop with decent specs (i.e., at least 4 GB of RAM). Once you set up Python and installed the necesary packages, you can download the data we are going to use for the workshop.
 
 ### Download the data
-On top of this website, click the button "Download material (.zip)" to download the entire Github repository with the material. Unzip it and check out its contents. There are various files in this directory (most of them are used to generate this website), but the only relevant directory for you is the *tutorial* directory which contains the notebooks we'll use for the workshop. As you can see, the unzipped folder also contains a file named `download_data.py`, which is as its name suggests a script to download the data. Note: the data is 211 MB in total! To start the download, open a terminal (or `cmd` tool in Windows) and type:
+On top of this website, click the button "Download material (.zip)" to download the entire Github repository with the material. Unzip it and check out its contents. There are various files in this directory (most of them are used to generate this website), but the only relevant directory for you is the *tutorial* directory which contains the notebooks we'll use for the workshop. As you can see, the unzipped folder also contains a file named `download_data.py`, which is as its name suggests a script to download the data. Note: the data is 211 MB in total! Also, it assumes that you've installed Python already.
+
+To start the download, open a terminal (or `cmd` tool in Windows) and type:
 
 `python download_data.py`
   
 This should create a folder "data" in the directory with the materials, which will include 15 folders starting with "pi". These comprise the data that we'll use in our tutorials.
  
+If, for some reason, the `download_data.py` script doesn't work, you can manually download the data by going to [this URL](https://surfdrive.surf.nl/files/index.php/s/tosBy0KNb9BFUTC/download) (which points to the data repo). Download the zip-file and unzip it in the folder with the materials such that the unzipped folder ("data") is located here:
+
+Name_of_unzipped_materials_folder/
+├── code
+├── configure_python.md
+├── \_config.yml
+├── **data**
+├── download_data.py
+├── _layouts
+├── LICENSE
+├── README.md
+└── tutorial
+
+The location of the data is important because the tutorials assume that they're located in the same folder as the *tutorial* directory.
+ 
 __Please download the data *before* the day of your workshop, because on the day itself wifi will probably be very slow!__
+
+### Opening the notebooks
 
 
 ## ToDo:
