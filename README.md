@@ -5,13 +5,26 @@ Welcome to the website for the ICON 2017 hackathon "multivoxel pattern analysis 
 This "hackathon" (or rather *workshop*, really) assumes that participants are familiar with analyzing (f)MRI data and want to know how they would go about implementing a machine-learning ("decoding") analysis in Python. As such, it's definitely helpful if you have *some* knowledge about Python's syntax, but it's not strictly necessary. Also, we assume participants are relatively unfamiliar with machine learning (ML) concepts and their implementation; if you're a ML guru, this is probably not the right workshop for you ... [some more stuff on what people will learn ...]
 
 ## How to prepare ...
-For this hackathon, we expect participants to bring their own laptop. Given that you brought your own laptop, there are two options for working on the materials from the hackathon:
+To make sure that we are not going to spend half of the workshop fixing software dependencies and downloading data, we provide some instructions here to prepare for the workshop. 
 
-1. Install/configure Python on your own computer and download the materials. Please follow [these](configure_python.md) instructions on how to download and set-up Python correctly.
+### Set up Python
+For this workshop, we'll obviously use the Python programming language. We expect participants to bring their own laptop. Given that you brought your own laptop, there are two options for working on the materials from the hackathon:
+
+1. Install/configure Python on your own computer and download the materials (this is recommended!). Please follow [these](configure_python.md) instructions on how to download and set-up Python correctly.
 
 2. Request an account on our analysis-server. In that case, please email me (lukassnoek [at] gmail [dot] com) in advance. You would need to download [X2go](http://wiki.x2go.org/doku.php/doc:installation:x2goclient) - a remote desktop client - to access our server.
 
-If possible, try to install Python on your own computer (option 1), as this will not have the problem of "lag" caused by the remote desktop client. Following the tutorials should be doable on a laptop with decent specs (i.e., at least 4 GB of RAM).
+If possible, try to install Python on your own computer (option 1), as this will not have the problem of "lag" caused by the remote desktop client. Following the tutorials should be doable on a laptop with decent specs (i.e., at least 4 GB of RAM). Once you set up Python and installed the necesary packages, you can download the data we are going to use for the workshop.
+
+### Download the data
+On top of this website, click the button "Download material (.zip)" to download the entire Github repository with the material. Unzip it and check out its contents. There are various files in this directory (most of them are used to generate this website), but the only relevant directory for you is the *tutorial* directory which contains the notebooks we'll use for the workshop. As you can see, the unzipped folder also contains a file named `download_data.py`, which is as its name suggests a script to download the data. Note: the data is 211 MB in total! To start the download, open a terminal (or `cmd` tool in Windows) and type:
+
+  $ python download_data.py
+  
+ 
+
+
+
 
 ## ToDo:
 
