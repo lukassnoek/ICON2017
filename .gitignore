@@ -102,3 +102,6 @@ ENV/
 
 data
 data_raw
+
+# MacOS stuff
+.DS_Store
