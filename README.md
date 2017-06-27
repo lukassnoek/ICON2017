@@ -15,6 +15,17 @@ If possible, try to install Python on your own computer (option 1), as this will
 
 ## ToDo:
 
+- Lukas: run piop1 WM first-levels
+- Lukas: data op surfdrive + download-script
+- Lukas: python-refresher notebook
+- Lukas: python installatie tutorial op website
+- Steven: aanpassingen notebook
+
+* design korter
+* minder python programmeer dingetjes
+* answer-notebook
+* Figure out cell collapse
+
 - Figure out IP van Beurs van Berlage (open zetten voor TUX)
-- Maak antwoord-notebook
-- Figure out cell collapse
+
+
