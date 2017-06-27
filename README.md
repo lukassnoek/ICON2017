@@ -23,7 +23,7 @@ On top of this website, click the button "Download material (.zip)" to download 
   
 This should create a folder "data" in the directory with the materials, which will include 15 folders starting with "pi". These comprise the data that we'll use in our tutorials.
  
-** Please download the data *before* the day of your workshop, because on the day itself wifi will probably be very slow! **
+__Please download the data *before* the day of your workshop, because on the day itself wifi will probably be very slow!__
 
 
 ## ToDo:
