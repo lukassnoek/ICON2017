@@ -9,15 +9,14 @@ import os
 import zipfile
 import os.path as op
 
-
 this_dir = op.dirname(op.realpath(__file__))
 dst_dir = op.join(this_dir, 'data')
 
 if not op.isdir(dst_dir):
     os.makedirs(dst_dir)
 
-data_file = 'https://surfdrive.surf.nl/files/index.php/s/tosBy0KNb9BFUTC/download'
-dst_file = op.join(dst_dir, 'firstlevel.zip')
+data_file = 'https://surfdrive.surf.nl/files/index.php/s/h2zmYSFHoJyiBh8/download'
+dst_file = op.join(dst_dir, 'data.zip')
 
 if not op.isfile(dst_file):
     print("Downloading the data ...\n")
