@@ -27,9 +27,9 @@ To start the download, open a terminal (or `cmd` tool in Windows) and type:
 
 `python download_data.py`
   
-This should create a folder "data" in the directory with the materials, which will include 15 folders starting with "pi". These comprise the data that we'll use in our tutorials.
+This should create a folder "data" in the directory with the materials, which will include 16 folders starting with "pi". These comprise the data that we'll use in our tutorials.
  
-If, for some reason, the `download_data.py` script doesn't work, you can manually download the data by going to [this URL](https://surfdrive.surf.nl/files/index.php/s/tosBy0KNb9BFUTC/download) (which points to the data repo). Download the zip-file and unzip it in the folder with the materials such that the unzipped folder ("data") is located here:
+If, for some reason, the `download_data.py` script doesn't work, you can manually download the data by going to [this URL](https://surfdrive.surf.nl/files/index.php/s/G0bUmbv0vsF52Gd/download) (which points to the data repo). Download the zip-file and unzip it in the folder with the materials such that the unzipped folder ("data") is located here:
 
 `Name_of_unzipped_materials_folder/`  
 `├── code`  
@@ -43,19 +43,26 @@ If, for some reason, the `download_data.py` script doesn't work, you can manuall
 `└── tutorial`  
 
 The location of the data is important because the tutorials assume that they're located in the same folder as the *tutorial* directory.
- 
+
 __Please download the data *before* the day of your workshop, because on the day itself wifi will probably be very slow!__
 
 ### Opening the notebooks
+To open the tutorial notebook, use your terminal to navigate to the "tutorial" directory. Then, start the notebook by typing:
 
+    $ jupyter notebook ICON2017_tutorial.ipynb
+
+(Do not actually type the `$`; this represents the prompt of your terminal!)
+Now, a browser should open with the notebook!
+
+### Do the Python tutorial (*optional*)
+For the course on which this workshop is based, we included short Python refresher/tutorial. For those who
+want to brush up their Python skills, or don't have any experience with Python at all, we included the 
+notebook in the workshop's materials. Like the main `ICON2017_tutorial`, you can start the `python_tutorial.ipynb` using
+the `jupyter notebook python_tutorial.ipynb` call in your terminal.
 
 ## ToDo:
 
-- Lukas: run piop1 WM first-levels
-- Lukas: data op surfdrive + download-script
 - Lukas: python-refresher notebook
-- Lukas: python installatie tutorial op website
-- Steven: aanpassingen notebook
 
 * design korter
 * minder python programmeer dingetjes
