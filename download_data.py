@@ -15,7 +15,7 @@ dst_dir = op.join(this_dir, 'data')
 if not op.isdir(dst_dir):
     os.makedirs(dst_dir)
 
-data_file = 'https://surfdrive.surf.nl/files/index.php/s/h2zmYSFHoJyiBh8/download'
+data_file = 'https://surfdrive.surf.nl/files/index.php/s/G0bUmbv0vsF52Gd/download'
 dst_file = op.join(dst_dir, 'data.zip')
 
 if not op.isfile(dst_file):

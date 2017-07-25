@@ -24,6 +24,6 @@ In the terminal, use the following command to install packages:
 
 So, to install *nibabel*, just type: `pip install nibabel`. **Note**: scikit-learn can be installed by doing: `pip install sklearn`.
 
-If you want to check whether all packages are installed correctly, you can run the `verify_package_installs.py` script located in the materials folder (run `python verify_package_installs.py` in a terminal).
+If you want to check whether all packages are installed correctly, you can run the `verify_package_installs.py` script located in the materials folder (run `python verify_package_installs.py` in a terminal). You might get a "DeprecationWarning", but you can ignore that!
 
 [Back to main page](README.md)
