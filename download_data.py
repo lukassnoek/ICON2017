@@ -8,6 +8,17 @@ import subprocess
 import os
 import zipfile
 import os.path as op
+import platform
+
+cmd = "where" if platform.system() == "Windows" else "which"
+with open(os.devnull, 'w') as devnull:
+    res = subprocess.call([cmd, 'curl'], stdout=devnull)
+
+    if res != 0:
+        raise OSError("The program 'curl' was not found on your computer! "
+                      "Either install it or download the data from surfdrive "
+                      " (link on website)")
+
 
 this_dir = op.dirname(op.realpath(__file__))
 dst_dir = op.join(this_dir, 'data')
