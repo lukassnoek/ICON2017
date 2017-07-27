@@ -29,7 +29,7 @@ To start the download, open a terminal (or `cmd` tool in Windows) and type:
   
 This should create a folder "data" in the directory with the materials, which will include 16 folders starting with "pi". These comprise the data that we'll use in our tutorials.
  
-If, for some reason, the `download_data.py` script doesn't work, you can manually download the data by going to [this URL](https://surfdrive.surf.nl/files/index.php/s/G0bUmbv0vsF52Gd/download) (which points to the data repo). Download the zip-file and unzip it in the folder with the materials such that the unzipped folder ("data") is located here:
+If, for some reason, the `download_data.py` script doesn't work, you can manually download the data by going to [this URL](https://surfdrive.surf.nl/files/index.php/s/Iv5tNOAMZTJ0WiS/download) (which points to the data repo). Download the zip-file and unzip it in the folder with the materials such that the unzipped folder ("data") is located here:
 
 `Name_of_unzipped_materials_folder/`  
 `├── code`  
