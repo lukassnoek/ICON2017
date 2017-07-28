@@ -102,6 +102,7 @@ ENV/
 
 data
 data_raw
+data.zip
 
 # MacOS stuff
 .DS_Store
