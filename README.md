@@ -1,10 +1,21 @@
 ## Hi there!
 Welcome to the website for the ICON 2017 hackathon **multivoxel pattern analysis (MVPA) of fMRI data in Python**! On this website, you'll find some general info about the hackathon, how to prepare for it (in terms of Python prerequisites and environment), and the slides/notebooks/data that will be used during the hackathon.
 
-## Scope/learning goals
-This "hackathon" (or rather *workshop*, really) assumes that participants are familiar with analyzing (f)MRI data and want to know how they would go about implementing a machine-learning ("decoding") analysis in Python. As such, it's definitely helpful if you have *some* knowledge about Python's syntax, but it's not strictly necessary. (We do provide a crash-course Python-for-fMRI in a separate notebook which we'll *won't* discuss during the workshop, but you can do on your own if you want!)
+### Scope/learning goals
+Originally, this notebook was developed for the Research Master Psychology course [Neuroimaging: Pattern Analysis](http://studiegids.uva.nl/xmlpages/page/2017-2018/zoek-vak/vak/39531) at the University of Amsterdam, but it was adapted and extended for this ICON workshop. As such, this workshop was designed for people who are relatively *unfamiliar* with MVPA and/or its implementation in Python. We *do* assume that you are familiar with analyzing (f)MRI data; the purpose of this workshop is to "extend your analysis toolbox", so to say. As such, it’s definitely helpful if you have some knowledge about Python’s syntax, but it’s not strictly necessary. Also, we assume participants are relatively unfamiliar with machine learning (ML) concepts and their implementation; if you’re a ML guru, this is probably not the right workshop for you...
 
-Also, we assume participants are relatively unfamiliar with machine learning (ML) concepts and their implementation. This workshop is based on material from the course "Neuroimaging: Pattern Analysis" taught at the University of Amsterdam for the Research Master Psychology, so it was designed with this in mind, resulting in a relatively "hands-on" approach including lot's of "practice assignments" in the notebooks, which are optional for this workshop as it involves quite a bit of Python programming. Anyway, in short: if you're a ML guru, this is probably not the right workshop for you ... 
+Also, there is actually no single "multivoxel pattern analysis"; rather, MVPA is a bucket-term referring to several kinds of pattern-based analyses. As this workshop cannot cover all such analyses, we limit the scope to machine learning (*classification-based*) analyses of fMRI data. We hope to cover these grounds sufficiently well for you to be able to explore other kinds of analyses on your own. 
+
+### Learning goals of this workshop
+In this workshop, we cover the basics and implementation of multivoxel pattern analysis (MVPA) to analyze (functional) MRI data in Python. After this tutorial, you are able to:
+
+- Understand the differences between within-subject and between-subject pattern analysis;
+- Know how to extract/estimate patterns from fMRI data;
+- Implement different feature extraction and selection methods using scikit-learn;
+- Build cross-validated MVPA pipelines using scikit-learn;
+- Evaluate your models
+
+In short, this tutorial will show how to build your own complete, cross-validated MVPA pipeline for fMRI data.
 
 Note: if you're interested in the original course materials, check out the corresponding [github](https://github.com/lukassnoek/PatternAnalysis). The slides from the course corresponding to the material of this workshop can be viewed [here](lecture_slides/PatternAnalysis_week_1_intro.pdf) (intro/pattern estimation) and [here](lecture_slides/PatternAnalysis_week_2_decoding.pdf) (decoding/ML).
 
