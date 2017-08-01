@@ -1,3 +1,4 @@
+from glob import glob
 import numpy as np
 import os.path as op
 
@@ -22,3 +23,7 @@ def return_some_objects():
 def sort_nifti_paths(paths, idf='tstat'):
 
     return sorted(paths, key=lambda x: int(op.basename(x).split('.')[0].split(idf)[-1]))
+
+def glob_tstats():
+
+    return glob(op.join('..', 'data', 'pi0070', 'wm.feat', 'stats', 'tstat*.nii.gz'))
