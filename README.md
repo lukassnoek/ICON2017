@@ -16,7 +16,8 @@ For this workshop, we'll obviously use the Python programming language. We expec
 
 1. Install/configure Python on your own computer and download the materials (this is recommended!). Please follow **[these instructions](configure_python.md)** on how to download and set-up Python correctly.
 
-2. Request an account on our analysis-server. In that case, please email me (lukassnoek [at] gmail [dot] com) in advance. You would need to download **[X2go](http://wiki.x2go.org/doku.php/doc:installation:x2goclient)** - a remote desktop client - to access our server.
+2. Request an account on our analysis-server. In that case, please email me (lukassnoek [at] gmail [dot] com) in advance. You can only log in at the day of the workshop at the
+Beurs van Berlage. See **[this manual](log_in_server.md)** for instructions on how to log in/access our server.
 
 If possible, try to install Python on your own computer (**[option 1](configure_python.md)**), as this will not have the problem of "lag" caused by the remote desktop client. Following the tutorials should be doable on a laptop with decent specs (i.e., at least 4 GB of RAM). Once you set up Python and installed the necesary packages, you should download the data we are going to use for the workshop.
 
@@ -62,3 +63,10 @@ notebook in the workshop's materials. Like the main `ICON2017_tutorial`, you can
 
     $ jupyter notebook python_tutorial.ipynb
 
+## Questions
+If you have questions about the workshop, you can send an email to *lukassnoek [at] gmail [dot] com*.
+We're looking forward to meeting you in Amsterdam!
+
+Best,
+
+Lukas & Steven
