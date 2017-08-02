@@ -14,14 +14,20 @@ uses the right version of Python.
 If you installed Anaconda through the command line, close and reopen a terminal, which makes sure that the `$PATH` variable is reloaded and your OS finds the correct (Anaconda) version of Python. Now, we need to install the packages necessary for the tutorials. These packages encompass different functionality that we need to load, manipulate, and analyze MRI-images. We will use the following:  
 
 * **numpy**: the standard package for working with **num**eric data in **Py**thon (e.g., manipulating n-dimensional arrays like MRI-images!);
+* **scipy**: provides some functionality for statistics (like the t-test);
 * **nibabel**: the *de facto* package for loading in MRI data;
 * **scikit-learn**: the extremely versatile (and most popular) machine learning package in Python;
 * **matplotlib**: the most-often used plotting package in Python;
-* **skbold**: our own machine-learning-for-fMRI package (an optional section on `skbold` is included in the workshop)
+* **skbold**: our own machine-learning-for-fMRI package (an optional section on [skbold](https://skbold.readthedocs.io) is included in the workshop)
 
 To install these packages, we're going to use `pip`, Python's package installer (which is shipped by default with Anaconda). The command `pip` works in a terminal/command line, so Mac/Linux users should simply open a terminal window. Windows users can open a command prompt either by opening the `cmd` utility (search for "cmd" in your programs) or by using the *Anaconda command prompt* (a Linux-style terminal emulator; search for "Anaconda" in your programs).
 
-In the terminal, use the following command to install packages:
+Once you've opened a terminal, navigate to the directory with materials, and run:
+use the following command to install all the packages at once:
+
+    $ pip install -r requirements.txt
+
+Alternatively (if it for some reason doesn't work), you can install the packages one by one by running:
 
     $ pip install <package name>
 
