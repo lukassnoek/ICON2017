@@ -4,3 +4,4 @@ nibabel
 sklearn
 matplotlib
 skbold
+niwidgets
