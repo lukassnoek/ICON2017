@@ -32,7 +32,9 @@ Alternatively (if it for some reason doesn't work), you can install the packages
 
     $ pip install <package name>
 
-So, to install *nibabel*, just type: `pip install nibabel`. **Note**: scikit-learn can be installed by doing: `pip install sklearn`.
+So, to install *nibabel*, just type: `pip install nibabel`. **Note**: scikit-learn can be installed by doing: `pip install sklearn`. Also, `niwidgets` needs to be installed from the corresponding Github directory directly, which can be done through:
+
+	$ pip install git+git://github.com/janfreyberg/niwidgets
 
 If you want to check whether all packages are installed correctly, you can run the `verify_package_installs.py` script located in the materials folder (run `python verify_package_installs.py` in a terminal). You might get a "DeprecationWarning", but you can ignore that!
 

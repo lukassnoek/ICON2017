@@ -4,4 +4,4 @@ nibabel
 sklearn
 matplotlib
 skbold
-niwidgets
+git+git://github.com/janfreyberg/niwidgets/

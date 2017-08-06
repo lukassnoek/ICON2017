@@ -1,3 +1,7 @@
+## UPDATE
+This service was only meant for the ICON2017 workshop and is thus not relevant anymore. As such, to follow this workshop,
+you'll have to install Python as explained [here](configure_python.md).
+
 ## Logging in on the analysis server
 The psychology department at the University of Amsterdam has several dedicated servers for (neuroimaging) analysis and education.
 If you've emailed us to request an account on the server, you should have gotten a reply from us with a username and password.
@@ -26,4 +30,4 @@ Then, start the notebook by typing the following in your terminal:
 
     $ jupyter notebook ICON2017_tutorial.ipynb
 
-
+**[Back to main page](README.md)**
