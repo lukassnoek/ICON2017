@@ -3,6 +3,17 @@ This is the website for the **multivoxel pattern analysis (MVPA) of fMRI data in
 given at [ICON](http://www.icon2017.org/) 2017. The materials and data will remain online so that everyone who's interested
 can follow the workshop. Also, all the material is *fully open-source*, so feel free the re-use and modify this workshop's materials to fit your own educational activities! If you find mistakes or have suggestions for improvements of this workshop, please let me know by email (see [Github](https://github.com/lukassnoek)) or, even better, submit a "Pull Request" (PR) to this workshop's [Github repository](https://github.com/lukassnoek/ICON2017) - this is greatly appreciated! That said, on this website, you'll find some general info about the workshop, how to prepare for it (in terms of Python prerequisites and environment), and the slides/notebooks/data that will be used during the workshop.
 
+Also, check out the slides from the introductory lecture below:
+
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+<iframe src="https://docs.google.com/presentation/d/1bgK1sv-VmnvAR_HgTiWsU0vQkyjz6oO1zQ5ly4laPkw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
 ### Scope/learning goals
 Originally, this notebook was developed for the Research Master Psychology course [Neuroimaging: Pattern Analysis](http://studiegids.uva.nl/xmlpages/page/2017-2018/zoek-vak/vak/39531) at the University of Amsterdam, but it was adapted and extended for this ICON workshop. As such, this workshop was designed for people who are relatively *unfamiliar* with MVPA and/or its implementation in Python. We *do* assume that you are familiar with analyzing (f)MRI data; the purpose of this workshop is to "extend your analysis toolbox", so to say. As such, it’s definitely helpful if you have some knowledge about Python’s syntax, but it’s not strictly necessary. Also, we assume participants are relatively unfamiliar with machine learning (ML) concepts and their implementation; if you’re a ML guru, this is probably not the right workshop for you...
 
