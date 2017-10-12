@@ -19,6 +19,7 @@ If you installed Anaconda through the command line, close and reopen a terminal,
 * **scikit-learn**: the extremely versatile (and most popular) machine learning package in Python;
 * **matplotlib**: the most-often used plotting package in Python;
 * **skbold**: our own machine-learning-for-fMRI package (an optional section on [skbold](https://skbold.readthedocs.io) is included in the workshop)
+* **niwidgets**: this lets you look at image files inside jupyter notebook.
 
 To install these packages, we're going to use `pip`, Python's package installer (which is shipped by default with Anaconda). The command `pip` works in a terminal/command line, so Mac/Linux users should simply open a terminal window. Windows users can open a command prompt either by opening the `cmd` utility (search for "cmd" in your programs) or by using the *Anaconda command prompt* (a Linux-style terminal emulator; search for "Anaconda" in your programs).
 
@@ -31,7 +32,9 @@ Alternatively (if it for some reason doesn't work), you can install the packages
 
     $ pip install <package name>
 
-So, to install *nibabel*, just type: `pip install nibabel`. **Note**: scikit-learn can be installed by doing: `pip install sklearn`.
+So, to install *nibabel*, just type: `pip install nibabel`. **Note**: scikit-learn can be installed by doing: `pip install sklearn`. Also, `niwidgets` needs to be installed from the corresponding Github directory directly, which can be done through:
+
+	$ pip install git+git://github.com/janfreyberg/niwidgets
 
 If you want to check whether all packages are installed correctly, you can run the `verify_package_installs.py` script located in the materials folder (run `python verify_package_installs.py` in a terminal). You might get a "DeprecationWarning", but you can ignore that!
 

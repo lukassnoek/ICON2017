@@ -3,7 +3,7 @@ import os
 from importlib import import_module
 
 packages = ['sklearn', 'nibabel', 'numpy',
-            'matplotlib', 'skbold', 'scipy']
+            'matplotlib', 'skbold', 'niwidgets', 'scipy']
 
 warnings.filterwarnings("ignore")
 
