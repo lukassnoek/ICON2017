@@ -1,3 +1,5 @@
+*This educational material is outdated; for an updated version, check out the [NI-edu course](https://lukas-snoek.com/NI-edu/) (the `fMRI-pattern-analysis` course has a module dedicated to MVPA)*
+
 ## Hi there!
 This is the website for the **multivoxel pattern analysis (MVPA) of fMRI data in Python** workshop which was originally
 given at [ICON](http://www.icon2017.org/) 2017. The materials and data will remain online so that everyone who's interested
